@@ -12,3 +12,8 @@ data/fraudulent_emails_olivia.json: Enriched fraudulent emails dataset. Addition
 * 'urgency_score'
 * 'GeoLocationParser-data'
 * 'IPInfo-data'
+
+### Tasks
+[ ] 5.2.1. Attacker title extraction: Increase robustness. Can we add more titles? (the best way to see if this is the case might be manual review)
+[ ] 5.2.2. Urgency score: Review. Add/remove words? Word tenses? Change score amounts?
+[ ] 5.2.3. Message creation timestamp: Review algorithm, primarily the part where we are choosing to rely on the data from the GeoTopicParser and the GeoTopicParser has parsed multiple geolocations from the message. How do we decipher which location to use?
