@@ -1,6 +1,10 @@
 # dsci550-assignment1
 Repository for DSCI 550 Group 8 - Assignment 1
 
+### Report
+
+https://docs.google.com/document/d/1LHZureAfEl2ty9DPJZv9lSV5RFfpV81gAZhNP5V1YkY/edit?usp=sharing
+
 ### Data
 
 data/fraudulent_emails_orignal.json: Plain parsed fraudulent_emails.txt output directly from Tika (no enrichment)
@@ -12,6 +16,8 @@ data/fraudulent_emails_olivia.json: Enriched fraudulent emails dataset. Addition
 * 'urgency_score'
 * 'GeoLocationParser-data'
 * 'IPInfo-data'
+
+data/fraudulent_emails_update.json.zip: Most up-to date version of fraudulent emails dataset including IP risk score info
 
 ### Tasks
 
