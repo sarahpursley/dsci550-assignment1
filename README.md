@@ -31,8 +31,8 @@ data/fraudulent_emails_olivia.json: Enriched fraudulent emails dataset. Addition
 - [ ] 5.2.9. Attacker age estimation -- do it (sync with Claudia)
 - [X] 5.2.10. Discover if the message was sent from an address previously reported to be phisher: do it
 - [ ] 6. Attach other datasets
-  - [ ] Global Unemployment data - excel (Applications top level type)
-  - [ ] International Debt Statistics data - csv (text top level type)
+  - [X] Global Unemployment data - excel (Applications top level type)
+  - [X] International Debt Statistics data - csv (text top level type)
   - [ ] Image data - (image top level type) base64 encode image
 - [ ] 7. Tika Similarity
 - [ ] 8. Package up as TSV
