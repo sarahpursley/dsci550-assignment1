@@ -11,4 +11,4 @@ Olivia Fryt:
 Sarah Pursley: Identified Enron dataset and identified many new features while comparing spam emails vs. ‘real’ Enron emails, compiled and structured final notebook from all python scripts created by other group members.
 Madeleine Thompson: Identified two additional datasets and appended extracted features to emails dataset and added information about if sender’s IP address was involved in any other known phishing attacks.
 Claudia Winarko: 
-Amber Yu: Organized and wrote final report and included visualizations.
+Amber Yu: Interpreted data and wrote final report, included visualizations.
