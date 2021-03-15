@@ -9,7 +9,7 @@ import json
 engine = geengine()
 
 # Read-in fraudulent messages
-with open('../data/fraudulent_emails_final.json','r') as injson:
+with open('../data/fraudulent_emails.json','r') as injson:
     messages = json.load(injson)
 
 # Iterate over messages and look for good geolocation matches
@@ -52,16 +52,5 @@ for message in messages:
             time.sleep(3)
 
 # Save enriched fraudulent messages
-with open('../data/fraudulent_emails_gee.json','w') as outjson:
+with open('../data/fraudulent_emails.json','w') as outjson:
     json.dump(messages, outjson, indent=2)
-
-# Show some examples of retrieved images (use the last message)
-print(f'''Name: {example['name']}  Long: {example['longitude']}  Lat: {example['latitude']}\n''')
-print('Population Density:')
-Image.display(data=engine.b64_to_image(example['population_density']))
-print('Population Count:')
-Image.display(data=engine.b64_to_image(example['population_count']))
-print('Raw Land:')
-Image.display(data=engine.b64_to_image(example['raw_land']))
-print('Country Boundaries:')
-Image.display(data=engine.b64_to_image(example['country_boundaries']))
