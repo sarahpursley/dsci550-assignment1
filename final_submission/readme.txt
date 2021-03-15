@@ -7,7 +7,7 @@ Member Contributions:
 
 Everyone: Edits on final report, review and edits of final source code, downloading all software
 Katie Chak: Computed capitalization ratio and conducted NLP analysis on the email corpus to identify different attacker offering types.
-Olivia Fryt: Used Tika to convert messages to JSON, enriched dataset with attacker stylometrics, identified attacker's location & IP address, language, and date & time of attack. Also worked on training, testing, and running age predictor and Tika similarity.
+Olivia Fryt: Used Tika to convert messages to JSON and identify message body language, attributed email attachments to parent messages, keyword scanning for social-engineering type classification, extraction of attacker titles, message urgency scores, k-means clustering "discovery" for attacker offering, attacker's geolocation identification with GeoTopicParser and IP address lookup, attack date & time identification, evaluation of ratio of misspellings, age prediction, dataset #4 Google Earth Engine, Tika Similarity, saving data to TSV.
 Sarah Pursley: Identified Enron dataset and identified many new features while comparing spam emails vs. ‘real’ Enron emails, compiled and structured final notebook from all python scripts created by other group members.
 Madeleine Thompson: Identified two additional datasets and appended extracted features to emails dataset and added information about if sender’s IP address was involved in any other known phishing attacks.
 Claudia Winarko: Conducted sentiment analysis on the email corpus, contributed to keyword scanning for attacker’s title and type, and helped run age predictor.
