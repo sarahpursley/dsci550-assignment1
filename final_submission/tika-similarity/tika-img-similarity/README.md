@@ -1,4 +1,4 @@
-[Apache Tika](https://d3js.org/) File Similarity based on Jaccard distance, Edit distance & Cosine distance
+[D3](https://d3js.org/) Visualizations
 ===
 
 
